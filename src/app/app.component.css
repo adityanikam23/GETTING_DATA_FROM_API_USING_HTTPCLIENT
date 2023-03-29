@@ -1,0 +1,32 @@
+*{
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+h1{
+    padding-left: 40px;
+}
+.maindiv{
+    border: 5px solid gold;
+    height: 100%;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+table{
+    border: 2px solid black;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+table th, td{
+    border: 2px solid gold;
+    padding: 15px;
+    font-size: large;
+    font-weight: bold;
+}
+img{
+    width: 200px;
+}

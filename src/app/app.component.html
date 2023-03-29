@@ -1,0 +1,49 @@
+<h1>first HTTP client:</h1>
+
+<div class="maindiv">
+   <table>
+       <thead>
+           <tr>
+              <th>id</th>
+              <th>title</th>
+              <th>price</th>
+              <th>description</th>
+              <th>category</th>
+              <th>image</th>
+           </tr>
+       </thead>
+       <tbody>
+            <tr *ngFor="let user of users">
+                <td>{{user.id}}</td>
+                <td>{{user.title}}</td>
+                <td>{{user.price | currency}}</td>
+                <td>{{user.description}}</td>
+                <td>{{user.category}}</td>
+                <td><a href=""><img src="{{user.image}}" alt=""></a></td>
+            </tr>
+       </tbody>
+   </table>
+</div>
+<br><br><br>
+<hr>
+<br><br><br>
+<h1>second HTTP client:</h1>
+
+<div class="maindiv">
+    <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>title</th>
+                <th>body</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let myuser of myuser">
+                <td>{{myuser.id}}</td>
+                <td>{{myuser.title}}</td>
+                <td>{{myuser.body}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
